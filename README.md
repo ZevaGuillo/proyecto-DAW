@@ -32,4 +32,3 @@ https://ugye-my.sharepoint.com/personal/joe_velezc_ug_edu_ec/_layouts/15/onedriv
 # ❱ Google Drive: 
 
 https://drive.google.com/drive/folders/1B8oPrVXf299py3k4lXCSpVPhU3ZqHlu5?usp=sharing 
-
