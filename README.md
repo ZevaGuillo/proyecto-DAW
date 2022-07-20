@@ -20,7 +20,7 @@ Proyecto sobre maquetación en HTML 5 y diseño con los diferentes selectores en
 
 # ❱ Documentación
 
-https://1drv.ms/u/s!AoK_UmtVA6o9ghXAdbirFgAJD2pp?e=NDXXPI
+https://docs.google.com/document/d/1JGNJ-qgF6_dTz-102w7B5CEsXDdoIVoeM9PUlbtR5bU/edit?usp=sharing
 
 
 # ❱ Link Video Cargado (OneDrive – Google Drive): 
