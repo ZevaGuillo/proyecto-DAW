@@ -46,7 +46,7 @@
       position: relative;
       text-decoration: underline;
       color: rgb(241, 247, 235);
-      cursor:default;
+      cursor: default;
     }
 
     span[data-descr]:hover::after {
@@ -93,82 +93,62 @@
     }
   </style>
 
-<script>
-function info(enlace) {
-      if(enlace.id= "mancuerna"){
-      let img= document.getElementById("mancuerna");
-      img.style = "position:center;rigth:100 ;left:100;top:100;width:400px;height:400px;border: 1px #aaaaaa solid;border-radius: 10px;background-color:rgb(241, 245, 244) ";
+  <script>
+    function info(enlace) {
+      if (enlace.id = "mancuerna") {
+        let img = document.getElementById("mancuerna");
+        img.style = "position:center;rigth:100 ;left:100;top:100;width:400px;height:400px;border: 1px #aaaaaa solid;border-radius: 10px;background-color:rgb(241, 245, 244) ";
       }
-      else if(enlace.id="cuerda"){
-        let img= document.getElementById("cuerda");
-      img.style = "position:center;rigth:100 ;left:100;top:100;width:400px;height:400px;border: 1px #aaaaaa solid;border-radius: 10px;background-color:rgb(241, 245, 244) ";
+      else if (enlace.id = "cuerda") {
+        let img = document.getElementById("cuerda");
+        img.style = "position:center;rigth:100 ;left:100;top:100;width:400px;height:400px;border: 1px #aaaaaa solid;border-radius: 10px;background-color:rgb(241, 245, 244) ";
       }
-      else if(enlace.id="pesa"){
-        let img= document.getElementById("pesa");
-      img.style = "position:center;rigth:100 ;left:100;top:100;width:400px;height:400px;border: 1px #aaaaaa solid;border-radius: 10px;background-color:rgb(241, 245, 244) ";
+      else if (enlace.id = "pesa") {
+        let img = document.getElementById("pesa");
+        img.style = "position:center;rigth:100 ;left:100;top:100;width:400px;height:400px;border: 1px #aaaaaa solid;border-radius: 10px;background-color:rgb(241, 245, 244) ";
 
       }
-      else if(enlace.id="caminadora"){
-        let img= document.getElementById("caminadora");
-      img.style = "position:center;rigth:100 ;left:100;top:100;width:400px;height:400px;border: 1px #aaaaaa solid;border-radius: 10px;background-color:rgb(241, 245, 244) ";
+      else if (enlace.id = "caminadora") {
+        let img = document.getElementById("caminadora");
+        img.style = "position:center;rigth:100 ;left:100;top:100;width:400px;height:400px;border: 1px #aaaaaa solid;border-radius: 10px;background-color:rgb(241, 245, 244) ";
       }
-      else if(enlace.id="prensapierna"){
-        let img= document.getElementById("prensapierna");
-      img.style = "position:center;rigth:100 ;left:100;top:100;width:400px;height:400px;border: 1px #aaaaaa solid;border-radius: 10px;background-color:rgb(241, 245, 244) ";
+      else if (enlace.id = "prensapierna") {
+        let img = document.getElementById("prensapierna");
+        img.style = "position:center;rigth:100 ;left:100;top:100;width:400px;height:400px;border: 1px #aaaaaa solid;border-radius: 10px;background-color:rgb(241, 245, 244) ";
       }
-      else if(enlace.id="prensapos"){
-        let img= document.getElementById("prensapos");
-      img.style = "position:center;rigth:100 ;left:100;top:100;width:400px;height:400px;border: 1px #aaaaaa solid;border-radius: 10px;background-color:rgb(241, 245, 244) ";
+      else if (enlace.id = "prensapos") {
+        let img = document.getElementById("prensapos");
+        img.style = "position:center;rigth:100 ;left:100;top:100;width:400px;height:400px;border: 1px #aaaaaa solid;border-radius: 10px;background-color:rgb(241, 245, 244) ";
       }
+    }
 
-
-
-      
-      
-
-      
-  }
-
-  
-  
-
- 
-  
-    
- 
- 
-
-
-function turnoff(enlace){
-  if(enlace.id="mancuerna"){
-  let img = document.getElementById("mancuerna");
- img.style = "display:online;";
-  }
-  if(enlace.id="cuerda"){
-  let img = document.getElementById("cuerda");
- img.style = "display:online;";
-}
-if(enlace.id="pesa"){
-  let img = document.getElementById("pesa");
- img.style = "display:online;";
-}
-if(enlace.id="caminadora"){
-  let img = document.getElementById("caminadora");
- img.style = "display:online;";
-  }
-  if(enlace.id="prensapierna"){
-  let img = document.getElementById("prensapierna");
- img.style = "display:online;";
-}
-if(enlace.id="prensapos"){
-  let img = document.getElementById("prensapos");
- img.style = "display:online;";
-}
-
-}
-
-
-</script>
+    function turnoff(enlace) {
+      if (enlace.id = "mancuerna") {
+        let img = document.getElementById("mancuerna");
+        img.style = "display:online;";
+      }
+      if (enlace.id = "cuerda") {
+        let img = document.getElementById("cuerda");
+        img.style = "display:online;";
+      }
+      if (enlace.id = "pesa") {
+        let img = document.getElementById("pesa");
+        img.style = "display:online;";
+      }
+      if (enlace.id = "caminadora") {
+        let img = document.getElementById("caminadora");
+        img.style = "display:online;";
+      }
+      if (enlace.id = "prensapierna") {
+        let img = document.getElementById("prensapierna");
+        img.style = "display:online;";
+      }
+      if (enlace.id = "prensapos") {
+        let img = document.getElementById("prensapos");
+        img.style = "display:online;";
+      }
+    }
+  </script>
 </head>
 
 <body>
@@ -178,15 +158,15 @@ if(enlace.id="prensapos"){
       <nav class="navegacion">
         <ul class="menu">
           <li><a href="../index.html">➽ Inicio</a></li>
-          <li><a href="./nosotros.html">➽ Nosotros</a></li>
+          <li><a href="nosotros.html">➽ Nosotros</a></li>
           <li>
             <a href="#">➽ Servicios</a>
             <ul class="submenu">
-              <li><a href="./productos.html">➼ Producto</a></li>
-              <li><a href="./articulo.html">➼ Articulos</a></li>
+              <li><a href="productos.html">➼ Producto</a></li>
+              <li><a href="articulo.html">➼ Articulos</a></li>
             </ul>
           </li>
-          <li><a href="./contacto.html">➽ Contacto</a></li>
+          <li><a href="contacto.html">➽ Contacto</a></li>
         </ul>
       </nav>
     </header>
@@ -216,29 +196,40 @@ if(enlace.id="prensapos"){
         <br>
         <br>
         <br>
-        <article   class="seccionCentral_uno_articulo">
-          <H2><span  tabindex="0" data-descr="Conoce mas sobre nuestras mancuernas "  >Mancuernas</span></H2>
-          <img id= "mancuerna" src="https://i.imgur.com/0OWtK5g.png" onmouseover="info(this)" onmouseout="turnoff(this)" alt="Mancuernas"   />
+        <article class="seccionCentral_uno_articulo">
+          <H2><span tabindex="0" data-descr="Conoce mas sobre nuestras mancuernas ">Mancuernas</span></H2>
+          <img id="mancuerna" src="https://i.imgur.com/0OWtK5g.png" onmouseover="info(this)" onmouseout="turnoff(this)"
+            alt="Mancuernas" />
         </article>
-        <article   class="seccionCentral_uno_articulo">
+        <article class="seccionCentral_uno_articulo">
           <H2><span tabindex="0" data-descr="Multiproposito, ideal para todo tipo de ejercicio">Cuerda</span></H2>
-          <img id="cuerda" onmouseover="info(this)" onmouseout="turnoff(this)" src="https://i.imgur.com/F86e8Qo.png" alt="Cuerda" />
+          <img id="cuerda" onmouseover="info(this)" onmouseout="turnoff(this)" src="https://i.imgur.com/F86e8Qo.png"
+            alt="Cuerda" />
         </article>
         <article class="seccionCentral_uno_articulo">
-          <H2><span tabindex="0" data-descr="Pesa con agarre especial que la hace unica en su tipo">Pesa Rusa</span></H2>
-          <img id="pesa" onmouseover="info(this)" onmouseout="turnoff(this)" src="https://i.imgur.com/ePV59sL.png" alt="Pesa Rusa" />
+          <H2><span tabindex="0" data-descr="Pesa con agarre especial que la hace unica en su tipo">Pesa Rusa</span>
+          </H2>
+          <img id="pesa" onmouseover="info(this)" onmouseout="turnoff(this)" src="https://i.imgur.com/ePV59sL.png"
+            alt="Pesa Rusa" />
         </article>
         <article class="seccionCentral_uno_articulo">
-          <H2><span tabindex="0" data-descr="Las caminadoras con la certificacion de seguridad mas alta de el mercado ">Caminadora</span></H2>
-          <img id="caminadora" onmouseover="info(this)" onmouseout="turnoff(this)" src="https://i.imgur.com/TOlOX66.png" alt="Caminadora" />
+          <H2><span tabindex="0"
+              data-descr="Las caminadoras con la certificacion de seguridad mas alta de el mercado ">Caminadora</span>
+          </H2>
+          <img id="caminadora" onmouseover="info(this)" onmouseout="turnoff(this)" src="https://i.imgur.com/TOlOX66.png"
+            alt="Caminadora" />
         </article>
         <article class="seccionCentral_uno_articulo">
-          <H2><span tabindex="0" data-descr="Producto nuevo en stock , se de los primeros en adquirirlo">Prensa Pierna</span></H2>
-          <img id="prensapierna" onmouseover="info(this)" onmouseout="turnoff(this)" src="https://i.imgur.com/XO7NzlH.png" alt="Prensa Pierna" />
+          <H2><span tabindex="0" data-descr="Producto nuevo en stock , se de los primeros en adquirirlo">Prensa
+              Pierna</span></H2>
+          <img id="prensapierna" onmouseover="info(this)" onmouseout="turnoff(this)"
+            src="https://i.imgur.com/XO7NzlH.png" alt="Prensa Pierna" />
         </article>
         <article class="seccionCentral_uno_articulo">
-          <H2><span tabindex="0" data-descr="La clasica prensa para definir las extremidades inferiones ">Prensa PosPierna</span></H2>
-          <img id="prensapos" onmouseover="info(this)" onmouseout="turnoff(this)" src="https://i.imgur.com/hrVi4Ld.png" alt="PosPierna" />
+          <H2><span tabindex="0" data-descr="La clasica prensa para definir las extremidades inferiones ">Prensa
+              PosPierna</span></H2>
+          <img id="prensapos" onmouseover="info(this)" onmouseout="turnoff(this)" src="https://i.imgur.com/hrVi4Ld.png"
+            alt="PosPierna" />
         </article>
       </section>
     </main>
